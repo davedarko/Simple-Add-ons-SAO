@@ -14,6 +14,9 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 
+# new backup zips
+*-backups
+
 # Netlist files (exported from Eeschema)
 *.net
 
@@ -24,6 +27,11 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# svg2shenzhen-cache
+.svg2shenzhen-cache
+
+
 
 # Ignore list for Eagle, a PCB layout tool
 
@@ -50,4 +58,6 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+
+# mac storage
 .DS_Store
