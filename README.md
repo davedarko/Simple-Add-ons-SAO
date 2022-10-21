@@ -14,3 +14,4 @@ More to come:
  - retro spacehuhn badge
  - sloth badge
  - flux capacitor
+ - SAO to seeed grove adapter
