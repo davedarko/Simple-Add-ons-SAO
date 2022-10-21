@@ -15,3 +15,4 @@ More to come:
  - sloth badge
  - flux capacitor
  - SAO to seeed grove adapter
+ - SAO to battery holder adapter
