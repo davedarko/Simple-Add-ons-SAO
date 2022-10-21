@@ -7,7 +7,7 @@ Designed in Eagle 6.5 iirc
 currently not working the way it's intended, the amplifier section is not working like the bodged Version 1 did. 
 
 
-BOM
+## BOM
  | designator | value |
  |--|--|
  | U1 | Attiny85 the chip | 
