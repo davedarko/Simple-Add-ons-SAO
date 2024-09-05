@@ -16,6 +16,7 @@ fp-info-cache
 
 # new backup zips
 *-backups
+backups
 
 # Netlist files (exported from Eeschema)
 *.net
