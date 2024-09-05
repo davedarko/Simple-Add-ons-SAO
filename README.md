@@ -5,7 +5,11 @@ Current uploads:
 
 |Badge Name| Type | Eagle | Kicad | Description |
 |----------|------|-------|-------|-------------|
+| Han SAOlo in carbonyte  | SAO | - | yes | work in progress, Attiny202 with RGB LEDs |
 |COVID-19 badge | SAO | - | yes | blinks with the help of a 555 timer on the back |
+|"Hello my name is"  | SAO | - | yes | some blinks, some no |
+|MrAnderson  | SAO | - | yes | work in progress, hommage to Andy Anderson |
+|OnlyFan | SAO | - | yes | concept, but it's only a fan |
 |Vendetta badge | SAO | - | yes | "remember, remember the 5th of November" - or anything else with the help of the little EEPROM on the back of this badge |
 |Mr. Robot | SAO | yes | yes | with Attiny speaker |
 |Penghito Poco | SAO | yes | - | small penghicorn badge |
