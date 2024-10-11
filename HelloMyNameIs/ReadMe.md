@@ -9,3 +9,6 @@ For the event I had ordered 3 boards each in green, red and blue.
 The blue version has the order number on the front.
 All of them only have one of the LEDs correctly connected, for the other three you have to botch a bit.
 But 1 LED seems plenty strong already anyways.
+
+## files
+There are two versions, but you're probably most interested in the LED version - that would be in the "blinkyparts style" folder.
