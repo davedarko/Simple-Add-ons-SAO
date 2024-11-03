@@ -9,7 +9,7 @@
 //   NEO_RGB     Pixels are wired for RGB bitstream (v1 FLORA pixels, not v2)
 // Parameter 4 = array to store pixel data in
 
-#define NUMPIXELS 4
+#define NUMPIXELS 5
 
 // Since this is for the static version of the library, we need to supply the pixel array
 // This saves space by eliminating use of malloc() and free(), and makes the RAM used for
@@ -37,7 +37,7 @@ uint8_t displayCounterMax = 100;
 
 uint8_t slowBlinkCounter = 0;
 uint8_t slowBlinkCounterMax = 150;
-boolean LED_slowBlink_on = true;
+boolean LED_slowBlink_on = false;
 
 uint8_t slowFlipperCounter = 0;
 uint8_t slowFlipperCounterMax = 80;
@@ -67,6 +67,17 @@ void setup() {
   pinMode(PIN, OUTPUT); // set pin output - this is not done internally by the library for Static version of library
   // strip.begin(); // Static version does not use this.
   strip.show(); // Initialize all pixels to 'off'
+  for (uint8_t i=0; i<5; i++) {
+    strip.setPixelColor(i, strip.Color(32, 32, 32));
+    strip.show();
+    delay(100);
+  }
+  for (uint8_t i=0; i<5; i++) {
+    strip.setPixelColor(i, strip.Color(0, 0, 0));
+    strip.show();
+    delay(100);
+  }
+  
 }
 
 void loop() {
@@ -78,13 +89,13 @@ void loop() {
     // smoll LED on lower Panel
     if (slowBlinkCounter == slowBlinkCounterMax) {
       slowBlinkCounter = 0;
-      if (LED_slowBlink_on) {
-        strip.setPixelColor(LED_slowBlink, strip.Color(255, 0, 0));
-      }
-      else {
-        strip.setPixelColor(LED_slowBlink, strip.Color(255, 255, 0));
-      }
       LED_slowBlink_on = !LED_slowBlink_on;
+    }
+    if (LED_slowBlink_on) {
+      strip.setPixelColor(LED_slowBlink, strip.Color(255, 0, 0));
+    }
+    else {
+      strip.setPixelColor(LED_slowBlink, strip.Color(255, 255, 0));
     }
     slowBlinkCounter++;
 
@@ -111,11 +122,11 @@ void loop() {
     // face
     if (freeze_mode) {
 
-      if (FreezeBlinkCounter == FreezeBlinkCounterMax){
+      if (FreezeBlinkCounter == FreezeBlinkCounterMax) {
         FreezeBlink_on = !FreezeBlink_on;
-        FreezeBlinkCounter=0;
+        FreezeBlinkCounter = 0;
       }
-      
+
       if (FreezeBlink_on) {
         strip.setPixelColor(LED_oscilloscope, strip.Color(0, 255, 0));
       }
@@ -123,7 +134,7 @@ void loop() {
         strip.setPixelColor(LED_oscilloscope, strip.Color(0, 0, 0));
       }
       FreezeBlinkCounter++;
-      
+
 
       strip.setPixelColor(LED_face, strip.Color(0, 0, 0));
 
@@ -136,12 +147,12 @@ void loop() {
       freezeCounter++;
     }
     else {
-      
-      if (DeFreezeBlinkCounter == DeFreezeBlinkCounterMax){
+
+      if (DeFreezeBlinkCounter == DeFreezeBlinkCounterMax) {
         FreezeBlink_on = !FreezeBlink_on;
-        DeFreezeBlinkCounter=0;
+        DeFreezeBlinkCounter = 0;
       }
-      
+
       if (FreezeBlink_on) {
         strip.setPixelColor(LED_oscilloscope, strip.Color(0, 255, 0));
       }
@@ -157,9 +168,9 @@ void loop() {
         strip.setPixelColor(
           LED_face,
           strip.Color(
-            255, 
-            (uint8_t) map(DeFreezeCounter, DeFreezeCounterMax/3, DeFreezeCounterMax, 0, 255),
-            (uint8_t) map(DeFreezeCounter, DeFreezeCounterMax/3, DeFreezeCounterMax, 0, 255)
+            255,
+            (uint8_t) map(DeFreezeCounter, DeFreezeCounterMax / 3, DeFreezeCounterMax, 0, 255),
+            (uint8_t) map(DeFreezeCounter, DeFreezeCounterMax / 3, DeFreezeCounterMax, 0, 255)
           )
         );
       }
@@ -171,7 +182,7 @@ void loop() {
       DeFreezeCounter++;
     }
 
-    
+
 
   }
 
