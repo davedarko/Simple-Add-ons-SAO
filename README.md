@@ -1,6 +1,8 @@
 # Simple-Add-ons-SAO
 Find all of my ~~shitty~~ simple add-ons in this repository. Plus some badges that were never converted to SAO but they still blink and everything.
 
+![Pinout](/img/SAOpinout.png "Render of front and backside of the simple add-on and the used header")
+
 Current uploads:
 
 |Badge Name| Type | Eagle | Kicad | Description |
@@ -19,3 +21,5 @@ Current uploads:
 |flux capacitor | pin | yes | - | with animations thanks to an Attiny13, the flux is flowing https://hackaday.io/project/25898-flux-capacitor-trinket|
 |retro spacehuhn badge | pin | yes | - | RGB LED eyes on an olg Spacehuhn logo, with markers used for multicolor PCBs https://hackaday.io/project/33886-spacehuhn-badge |
 |library stick  | other | yes | - | show off all your simple add-ons |
+| YoDawgSAO | SAO| - | yes| https://github.com/davedarko/YoDawgSAO |
+| T.A.R.S. | SAO| - | yes| https://github.com/davedarko/TARS-SAO |
