@@ -1,6 +1,12 @@
 # Simple-Add-ons-SAO
+Hardware Conference Badges tend to turn very complex, so to allow people to add bling and memes to their badge, the SAO (then shitty add-on) standard was developed. It started as a 2x2 header with two power pins and two I2C pins for data and a clock signal. Let me introduce you to the standard and show you what can be achieved. This is one of my favorite things to design, as they can be nice little gifts and inspires a lot of people for future years to also design and gift some. 
+
+They are perfect gifts and spark joy!
+
 Find all of my ~~shitty~~ simple add-ons in this repository. Plus some badges that were never converted to SAO but they still blink and everything.
 
+## The current header - V1.69bis
+The header was expanded to a 2x3 ISP connector later. Looking at the simple add-on, this is the layout.
 ![Pinout](/img/SAOpinout.png "Render of front and backside of the simple add-on and the used header")
 
 ## Designs in this repository
@@ -27,5 +33,5 @@ Find all of my ~~shitty~~ simple add-ons in this repository. Plus some badges th
 
 |Badge Name| Type | Eagle | Kicad | Description |
 |----------|------|-------|-------|-------------|
-| YoDawgSAO | SAO| - | yes| https://github.com/davedarko/YoDawgSAO |
-| T.A.R.S. | SAO| - | yes| https://github.com/davedarko/TARS-SAO |
+| YoDawgSAO | SAO| - | yes| I heard you like badges on your badges? Here have some badges for your badges for your badges! https://github.com/davedarko/YoDawgSAO |
+| T.A.R.S. | SAO| - | yes| Probably my most complex design, a small TARS with display and RP2040 https://github.com/davedarko/TARS-SAO |
