@@ -7,6 +7,7 @@ Find all of my ~~shitty~~ simple add-ons in this repository. Plus some badges th
 
 ## The current header - V1.69bis
 The header was expanded to a 2x3 ISP connector later. Looking at the simple add-on, this is the layout.
+
 ![Pinout](/img/SAOpinout.png "Render of front and backside of the simple add-on and the used header")
 
 ## Designs in this repository
