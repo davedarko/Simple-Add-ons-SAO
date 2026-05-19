@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_over_copper|149989631|97141198|96265eb1-2703-4d95-9c6f-6fd137c75c9b|00000000-0000-0000-0000-000000000000",
-        "starved_thermal|135955000|105287500|ca6cb7f5-fa3a-480a-ad85-d7fc6213aebb|529ec821-c4ca-4ca5-82fd-49f33c12ff09|B.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SAO_library")(type "Legacy")(uri "${KIPRJMOD}/SAO library stick short.lib")(options "")(descr ""))
+)
