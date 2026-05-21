@@ -14,6 +14,8 @@ The header was expanded to a 2x3 ISP connector later. Looking at the simple add-
 
 |Badge Name| Type | Eagle | Kicad | Description |
 |----------|------|-------|-------|-------------|
+| Ghibli/Soot Sprites | SAO | yes | - | A susuwatari simple add-on |
+| LECCO postcard  | SAO | yes | - | Reminder token for a good time at Hackaday Europe 2026 in Lecco, Italy |
 | Han SAOlo in carbonyte  | SAO | - | yes | work in progress, Attiny202 with RGB LEDs https://hackaday.io/project/197803-han-saolo|
 | COVID-19 badge | SAO | - | yes | blinks with the help of a 555 timer on the back https://hackaday.io/project/187615-covid-19-sao-simple-add-on |
 | "Hello my name is"  | SAO | - | yes | some blinks, some no https://hackaday.io/project/197693-hello-my-name-is-sao |
@@ -26,7 +28,6 @@ The header was expanded to a 2x3 ISP connector later. Looking at the simple add-
 | sloth badge | pin | yes | - | inspired by some cute pimoroni pins, a sloth badge was formed https://hackaday.io/project/28330-sloth-badge |
 | flux capacitor | pin | yes | - | with animations thanks to an Attiny13, the flux is flowing https://hackaday.io/project/25898-flux-capacitor-trinket|
 | retro spacehuhn badge | pin | yes | - | RGB LED eyes on an olg Spacehuhn logo, with markers used for multicolor PCBs https://hackaday.io/project/33886-spacehuhn-badge |
-| Ghibli/Soot Sprites | SAO | yes | - | A susuwatari simple add-on |
 | library stick  | other | yes | - | show off all your simple add-ons |
 
 
